@@ -452,7 +452,7 @@ fun NuevoAlojamientoUI(onAgregarAlojo: () -> Unit) {
                     nuevoAlojo = nuevoAlojo.copy(lat_long = "")
                 }
             },
-            label = { Text("Latitud, Longitud ") },
+            label = { Text("Latitud, Longitud") },
             modifier = Modifier
                 .fillMaxWidth()
         )
